@@ -1,12 +1,12 @@
 # Multimodal RAG for HealthCare Applications 
 
 ## Overview  
-This project implements **Multimodal Retrieval-Augmented Generation (RAG)** for medical document analysis, leveraging text, tables, and images. The approach enables advanced question-answering by integrating structured and unstructured data sources.  
+This project implements **Multimodal Retrieval-Augmented Generation (RAG)** for medical document analysis, leveraging text, tables, and images. The approach enables advanced question-answering by integrating unstructured data sources.  
 
 **Case Study:** Multimodal RAG was performed on the medical document:  
 **[AHA/ACC/HFSA Clinical Practice Guideline: 2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure](https://www.ahajournals.org/doi/epdf/10.1161/CIR.0000000000001063)**.  
 
-Inspired by the LangChain cookbook example:  
+Inspired by:  
 [LangChain Semi-structured & Multimodal RAG](https://github.com/langchain-ai/langchain/blob/master/cookbook/Semi_structured_and_multi_modal_RAG.ipynb).  
 [Multimodal RAG: Chat with PDFs (Images & Tables)](https://www.youtube.com/watch?v=uLrReyH5cu0), [langchain-multimodal](https://colab.research.google.com/gist/alejandro-ao/47db0b8b9d00b10a96ab42dd59d90b86/langchain-multimodal.ipynb#scrollTo=e4adfeba).
 
