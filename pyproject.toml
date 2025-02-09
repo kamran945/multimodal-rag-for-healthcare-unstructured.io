@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "multimodal-rag-for-healthcare-unstructured.io"
+version = "0.1.0"
+description = ""
+authors = ["kamran945 <kamran945@gmail.com>"]
+readme = "README.md"
+packages = [
+    { include = "src" },
+]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+python-dotenv = "^1.0.1"
+unstructured = {extras = ["all-docs"], version = "^0.16.20"}
+pdfminer-six = "^20240706"
+pi-heif = "^0.21.0"
+pillow = "^11.1.0"
+lxml = "^5.3.0"
+langchain = "^0.3.18"
+langchain-core = "^0.3.34"
+langchain-groq = "^0.2.4"
+llama-index = "^0.12.16"
+llama-index-embeddings-huggingface = "^0.5.1"
+langchain-community = "^0.3.17"
+langchain-huggingface = "^0.1.2"
+chromadb = "^0.6.3"
+langchain-chroma = "^0.2.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
